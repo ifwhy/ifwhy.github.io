@@ -87,7 +87,7 @@ The complete midterm exam questions are available for download: [🧮 Discrete M
 
 _This exam represents not just an academic challenge, but a foundation for advanced computer science concepts. Whether you're pursuing algorithms, cybersecurity, or software architecture, these discrete mathematics principles will be essential tools in your professional journey._
 
-**Good luck to all Informatics UNS students taking this exam! Remember: discrete mathematics is about logical thinking and structured problem-solving—the core skills of every great programmer.** 🧠�
+**Good luck to all Informatics UNS students taking this exam! Remember: discrete mathematics is about logical thinking and structured problem-solving—the core skills of every great programmer.** 🧠💡
 
 ---
 
