@@ -1,7 +1,7 @@
 ---
 title: "Midterm Exam Numerical Method - Informatics UNS"
 date: 2025-07-14
-permalink: /posts/midterm-exam-numerical-method
+permalink: /posts/2025/midterm-exam-numerical-method
 tags:
   - midterm exam
   - numerical method
