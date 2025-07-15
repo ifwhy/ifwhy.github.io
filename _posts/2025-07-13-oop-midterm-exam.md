@@ -1,6 +1,7 @@
 ---
 title: "Midterm Exam Object-Oriented Programming - Informatics UNS"
 permalink: /posts/midterm-exam-oop
+date: 2025-07-13
 tags:
   - midterm exam
   - object oriented programming
