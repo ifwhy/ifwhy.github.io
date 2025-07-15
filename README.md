@@ -1,96 +1,347 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# 🎓 Academic Portfolio - Ivan Wahyu Nugroho
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
+<div align="center">
 
-# Getting Started
+[![Jekyll](https://img.shields.io/badge/Jekyll-4.0+-CC0000?style=for-the-badge&logo=jekyll&logoColor=white)](https://jekyllrb.com/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-327FC7?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
+[![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
+[![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://javascript.com/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fifwhy.github.io&style=for-the-badge&logo=github&label=Portfolio)](https://ifwhy.github.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Last Commit](https://img.shields.io/github/last-commit/ifwhy/ifwhy.github.io?style=for-the-badge&logo=github)](https://github.com/ifwhy/ifwhy.github.io)
 
-See more info at https://academicpages.github.io/
+</div>
 
-## Running locally
+---
 
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+## 📋 Table of Contents
 
-1. Clone the repository and made updates as detailed above.
+- [🎯 About](#-about)
+- [✨ Features](#-features)
+- [🚀 Quick Start](#-quick-start)
+- [💻 Local Development](#-local-development)
+  - [🛠️ Prerequisites](#️-prerequisites)
+  - [📦 Installation](#-installation)
+  - [🔧 Using Different IDEs](#-using-different-ides)
+  - [🐳 Using Docker](#-using-docker)
+  - [📝 Using VS Code DevContainer](#-using-vs-code-devcontainer)
+- [📂 Project Structure](#-project-structure)
+- [🎨 Customization](#-customization)
+- [📱 Deployment](#-deployment)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
 
-### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
+---
 
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+## 🎯 About
 
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
+**Welcome to my academic portfolio!** 👋
 
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
+This is a professional academic website built with **Jekyll** and hosted on **GitHub Pages**. It serves as a comprehensive showcase of my academic journey, including research publications, teaching experience, blog posts, and more.
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+> 🌟 **Live Website**: [ifwhy.github.io](https://ifwhy.github.io)
 
-## Using Docker
+### 👤 About Me
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+- **Name**: Ivan Wahyu Nugroho
+- **Affiliation**: Universitas Sebelas Maret
+- **Location**: Boyolali, Central Java, Indonesia
+- **Interests**: Mathematics, Computer Science, Academic Research
 
-You can build and execute the container by running the following command in the repository:
+---
+
+## ✨ Features
+
+🎨 **Modern Design**: Clean, professional, and responsive academic template  
+📱 **Mobile-First**: Optimized for all devices and screen sizes  
+📚 **Publication Management**: Showcase your research papers and citations  
+🎤 **Talks & Presentations**: Display your conference talks and seminars  
+👨‍🏫 **Teaching Portfolio**: Highlight your teaching experience and courses  
+📝 **Academic Blog**: Share insights with integrated blog functionality  
+🔍 **SEO Optimized**: Built-in search engine optimization  
+🌙 **Dark Mode Support**: Toggle between light and dark themes  
+📊 **Analytics Integration**: Track your website performance  
+🚀 **Fast Loading**: Optimized for speed and performance
+
+---
+
+## 🚀 Quick Start
+
+Ready to create your own academic portfolio? Follow these simple steps:
+
+### 1. 📋 Prerequisites
+
+- GitHub account (with verified email)
+- Basic knowledge of Git and Markdown
+- Text editor (VS Code recommended)
+
+### 2. 🔧 Setup Your Repository
+
+1. **Fork this repository** or use it as a template
+2. **Rename** your repository to `[your-username].github.io`
+3. **Clone** the repository to your local machine:
+   ```bash
+   git clone https://github.com/[your-username]/[your-username].github.io.git
+   cd [your-username].github.io
+   ```
+
+### 3. ⚙️ Configure Your Site
+
+1. **Edit `_config.yml`** with your personal information
+2. **Replace** the avatar image in `/images/` folder
+3. **Update** your content in the respective directories
+4. **Commit and push** your changes
+
+### 4. 🌐 Go Live
+
+1. Enable **GitHub Pages** in your repository settings
+2. Your site will be available at `https://[your-username].github.io`
+3. Changes typically take 1-10 minutes to appear live
+
+---
+
+## 💻 Local Development
+
+Want to preview your changes before publishing? Set up local development:
+
+### 🛠️ Prerequisites
+
+Make sure you have the following installed:
+
+- **Ruby** (version 2.7 or higher)
+- **Node.js** (for asset compilation)
+- **Git** (for version control)
+
+### � Setup Instructions
+
+### 📦 Installation
+
+#### 🐧 Linux/WSL:
+
+```bash
+sudo apt install ruby-dev ruby-bundler nodejs
+```
+
+If you encounter package errors, update first:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+#### 🍎 MacOS:
+
+```bash
+brew install ruby node
+gem install bundler
+```
+
+#### 🪟 Windows:
+
+- Install [Ruby+Devkit](https://rubyinstaller.org/)
+- Install [Node.js](https://nodejs.org/)
+- Run `gem install bundler` in Command Prompt
+
+### 🔧 Using Different IDEs
+
+1. **Install dependencies** using the commands above
+2. **Install Ruby gems**:
+
+   ```bash
+   bundle install
+   ```
+
+   > 💡 **Permission Issues?** Use local installation:
+   >
+   > ```bash
+   > bundle config set --local path 'vendor/bundle'
+   > bundle install
+   > ```
+
+3. **Start the development server**:
+
+   ```bash
+   jekyll serve -l -H localhost
+   ```
+
+   or use bundle exec for consistency:
+
+   ```bash
+   bundle exec jekyll serve -l -H localhost
+   ```
+
+4. **Open your browser** to `http://localhost:4000`
+
+> 🔄 The server automatically rebuilds and refreshes on file changes!
+
+### 🐳 Using Docker
+
+Prefer containerized development? Use Docker:
 
 ```bash
 chmod -R 777 .
 docker compose up
 ```
 
-You should now be able to access the website from `localhost:4000`.
+Access your site at `http://localhost:4000`
 
-### Using the DevContainer in VS Code
+### 📝 Using VS Code DevContainer
 
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development coontainer configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
+Using VS Code? Take advantage of the included dev container:
 
-# Maintenance
-
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
-
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
-
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+1. **Open project** in VS Code
+2. **Press F1** → "Dev Container: Reopen in Container"
+3. **Wait for setup** (automatic)
+4. **Access site** at `http://localhost:4000`
 
 ---
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+## 📂 Project Structure
+
+```
+academic-pages/
+├── 📁 _data/           # Site data (navigation, CV, etc.)
+├── 📁 _includes/       # Reusable HTML components
+├── 📁 _layouts/        # Page layouts
+├── 📁 _pages/          # Static pages (about, CV, etc.)
+├── 📁 _posts/          # Blog posts
+├── 📁 _publications/   # Research publications
+├── 📁 _talks/          # Conference talks
+├── 📁 _teaching/       # Teaching experience
+├── 📁 _sass/           # Styling (SCSS)
+├── 📁 assets/          # CSS, JS, fonts
+├── 📁 files/           # Downloadable files (PDFs, etc.)
+├── 📁 images/          # Images and avatars
+├── 📄 _config.yml      # Main site configuration
+├── 📄 Gemfile          # Ruby dependencies
+└── 📄 package.json     # Node.js dependencies
+```
+
+---
+
+## 🎨 Customization
+
+### 🎯 Basic Configuration
+
+Edit `_config.yml` to customize:
+
+- **Personal Information**: Name, bio, location
+- **Social Links**: GitHub, LinkedIn, Twitter, etc.
+- **Site Settings**: Title, description, URL
+- **Analytics**: Google Analytics integration
+
+### 🖼️ Adding Content
+
+#### 📝 Blog Posts
+
+Create new files in `_posts/` following the naming convention:
+
+```
+YYYY-MM-DD-post-title.md
+```
+
+#### 📚 Publications
+
+Add your papers in `_publications/` with metadata:
+
+```yaml
+---
+title: "Your Paper Title"
+date: 2024-01-01
+venue: "Conference Name"
+paperurl: "http://link-to-paper.pdf"
+---
+```
+
+#### 🎤 Talks
+
+Document your presentations in `_talks/`:
+
+```yaml
+---
+title: "Talk Title"
+date: 2024-01-01
+venue: "Conference/Event"
+location: "City, Country"
+---
+```
+
+### 🎨 Styling
+
+- **Colors**: Edit `_sass/_variables.scss`
+- **Layouts**: Modify files in `_layouts/`
+- **Components**: Update `_includes/` files
+
+---
+
+## 📱 Deployment
+
+### 🚀 GitHub Pages (Recommended)
+
+1. **Push your changes** to the main branch
+2. **Enable GitHub Pages** in repository settings
+3. **Select source**: Deploy from branch (main)
+4. **Custom domain** (optional): Add CNAME file
+
+### 🌐 Other Platforms
+
+This Jekyll site can also be deployed to:
+
+- **Netlify**: Drag and drop deployment
+- **Vercel**: Git integration
+- **AWS S3**: Static hosting
+- **Your own server**: Build and upload `_site/`
+
+---
+
+## 🤝 Contributing
+
+Found a bug or want to suggest an improvement?
+
+1. **Fork** the repository
+2. **Create** a feature branch: `git checkout -b feature-name`
+3. **Commit** your changes: `git commit -m 'Add feature'`
+4. **Push** to branch: `git push origin feature-name`
+5. **Submit** a pull request
+
+### 🐛 Reporting Issues
+
+- **Bug Reports**: [Submit via GitHub Issues](https://github.com/ifwhy/ifwhy.github.io/issues)
+- **Feature Requests**: [Start a Discussion](https://github.com/ifwhy/ifwhy.github.io/discussions)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+### 🙏 Acknowledgments
+
+This site is built using the **Academic Pages** template downloaded from:
+
+> 📥 **Original Repository**: [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io)
+
+This amazing template is built on top of:
+
+- **[Academic Pages](https://academicpages.github.io/)** - Original template
+- **[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)** - Jekyll theme foundation
+- **[Jekyll](https://jekyllrb.com/)** - Static site generator
+- **[GitHub Pages](https://pages.github.com/)** - Hosting platform
+
+Special thanks to the maintainers:
+
+- [Stuart Geiger](https://github.com/staeiou) - Original template creator
+- [Robert Zupko](https://github.com/rjzupkoii) - Current maintainer
+- [Michael Rose](https://github.com/mmistakes) - Minimal Mistakes theme
+
+---
+
+## 🌟 If this helped you, consider giving it a star
+
+[![GitHub stars](https://img.shields.io/github/stars/ifwhy/ifwhy.github.io?style=social)](https://github.com/ifwhy/ifwhy.github.io)
+[![GitHub forks](https://img.shields.io/github/forks/ifwhy/ifwhy.github.io?style=social)](https://github.com/ifwhy/ifwhy.github.io/fork)
+
+### Happy coding! 🚀
