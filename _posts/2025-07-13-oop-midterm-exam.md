@@ -1,7 +1,7 @@
 ---
 title: "Midterm Exam Object-Oriented Programming - Informatics UNS"
 date: 2025-07-13
-permalink: /posts/2025/midterm-exam-oop/
+permalink: /posts/midterm-exam-oop
 tags:
   - midterm exam
   - object oriented programming
@@ -73,12 +73,12 @@ To excel in this exam, focus on:
 
 _Coming soon!_ I'll be posting detailed solutions and explanations for each problem in this midterm exam. These solutions will include:
 
-- **Step-by-step proofs** with clear mathematical reasoning
-- **Graph algorithm walkthroughs** with visual representations
-- **Combinatorial problem breakdowns** with multiple solution approaches
-- **Logic circuit designs** and Boolean algebra simplifications
-- **Number theory applications** in cryptography and computer science
-- **Common mistakes** and how to avoid them
+- **Complete Java code implementations** with proper OOP principles
+- **Class diagram explanations** showing object relationships and inheritance
+- **Design pattern applications** with real-world examples and use cases
+- **Exception handling strategies** and best practices for error management
+- **Code refactoring examples** demonstrating clean code principles
+- **Common programming mistakes** and how to avoid them
 
 ## 📄 Exam Materials
 
@@ -86,9 +86,9 @@ The complete midterm exam questions are available for download: [💻 Object-Ori
 
 ---
 
-_This exam represents not just an academic challenge, but a foundation for advanced computer science concepts. Whether you're pursuing algorithms, cybersecurity, or software architecture, these discrete mathematics principles will be essential tools in your professional journey._
+_This exam represents not just an academic challenge, but a gateway to modern software development. Whether you're pursuing web development, mobile apps, or enterprise software, these object-oriented programming principles will be the foundation of your coding career._
 
-**Good luck to all Informatics UNS students taking this exam! Remember: discrete mathematics is about logical thinking and structured problem-solving—the core skills of every great programmer.** 🧠�
+**Good luck to all Informatics UNS students taking this exam! Remember: OOP is about creating clean, maintainable, and scalable code—the hallmark of professional software development.** 🚀💻
 
 ---
 

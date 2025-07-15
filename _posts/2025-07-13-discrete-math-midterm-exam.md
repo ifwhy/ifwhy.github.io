@@ -1,7 +1,7 @@
 ---
 title: "Midterm Exam Discrete Mathematics II - Informatics UNS"
 date: 2025-07-13
-permalink: /posts/2025/midterm-exam-discrete-math-ii
+permalink: /posts/midterm-exam-discrete-math-ii
 tags:
   - midterm exam
   - discrete mathematics
